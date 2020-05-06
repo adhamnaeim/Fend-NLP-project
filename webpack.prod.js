@@ -3,6 +3,7 @@ const webpack = require("webpack")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 
 module.exports ={
+    mode: "production",
     entry: "./src/client/index.js", //changed the default entry point from ./src/index.js
     module: {
         rules: [
