@@ -6,6 +6,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports ={
     mode: "development",
     entry: "./src/client/index.js", //changed the default entry point from ./src/index.js
+    output: {
+        libraryTarget:'var',
+        library: 'Client'
+    },
     module: {
         rules: [
             {
