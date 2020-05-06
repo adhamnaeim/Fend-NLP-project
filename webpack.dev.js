@@ -15,7 +15,7 @@ module.exports ={
             },
             {
                 test: /\.scss$/,
-                use: [ 'style-loader', 'css-loader', 'sass-loader' ] //turning sass to css to style
+                use: [ 'style-loader', 'css-loader', 'sass-loader' ] //turning sass to css to style. inserting '' in the test causes an error unlike babel loader
             }
         ]
     },
