@@ -1,7 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
-
+//removed Minicss due to errors in compilation
 
 module.exports = {
     mode: 'production',
