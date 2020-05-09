@@ -31,7 +31,7 @@ export function handleSubmit(event) {
             console.log('error',error);
         }
     }
-    getData(port, {url: formText});
+    postData(port, {url: formText});
     document.getElementById('name').value = "";        
     }
     document.getElementById('name').value = "";

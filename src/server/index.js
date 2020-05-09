@@ -41,7 +41,7 @@ app.post('/test', function (req, res) {
             }
             projectData['sentences'] = response.sentences;
             projectData['author'] = response.author;
-            projectData['title'] = response.polarity_confidence;
+            projectData['title'] = response.title;
             console.log(projectData)
             res.send(projectData);
             });     
